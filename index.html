@@ -1,34 +1,39 @@
 <!DOCTYPE html>
     <html lang="en">
+      
+      
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/turn.js/3/turn.min.js"></script>
 
         <!--========== BOX ICONS ==========-->
-        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+        
 
         <!--========== CSS ==========-->
         <link rel="stylesheet" href="assets/css/styles.css">
 
         <title>Responsive landing page</title>
+
     </head>
     <body>
+      
+      
         <!--========== SCROLL TOP ==========-->
         <a href="#" class="scrolltop" id="scroll-top">
             <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
         </a>
-        
+        <div id="flipbook">
+          <!-- Place your book pages here -->
+        </div>
         <!--========== HEADER ==========-->
         <header class="l-header" id="header">
             <nav class="nav bd-container">
-                <a href="#" class="nav__logo">Christmas Gift</a>
+                
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
-                        <li class="nav__item"><a href="#share" class="nav__link">Share</a></li>
-                        <li class="nav__item"><a href="#decoration" class="nav__link">Decorations</a></li>
-                        <li class="nav__item"><a href="#accessory" class="nav__link">Accessory</a></li>
+                        
 
                         <li><i class='bx bx-toggle-left change-theme' id="theme-button"></i></li>
                     </ul>
@@ -45,123 +50,163 @@
             <section class="home" id="home">
                 <div class="home__container bd-container bd-grid">
                     <div class="home__img">
-                        <img src="assets/img/home.png" alt="">
+
+                      <img class="a" src ="file:///C:/Users/Abd/Desktop/responsive-landing-page-christmas/assets/imgs/first_pic.jpg" style="position: absolute; top: -240px; left: -500px; width: 950px; height: 650px; "alt="Example Image"> 
+
                     </div>
 
                     <div class="home__data">
-                        <h1 class="home__title">Send A Gift For Christmas</h1>
-                        <p class="home__description">In these end of the year holidays send a gift to your loved one and share the happiness at Christmas.</p>
-                        <a href="#" class="button">Get Started</a>
+                       
+                        <h1 class="home__title">Get Your Own Customized Welcome Book in
+                          Just 24 Hours and Take Your Airbnb to the Next Level!</h1>
+                        <p class="home__description">Make a lasting impression on your guests with a personalized welcome book designed for your Airbnb property. Boost your bookings and
+                          elevate your hosting game with our fast and professional service</p>
+                          
                     </div>   
                 </div>
+                
             </section>
 
-            <!--========== SHARE ==========-->
-            <section class="share section bd-container" id="share">
-                <div class="share__container bd-grid">
-                    <div class="share__data">
-                        <h2 class="section-title-center">Sharing Is The Best Gift <br> You Can Give</h2>
-                        <p class="share__description">Sharing these holidays is the best gift you can give, give a present or share your love with the people you love the most and celebrate with great happiness.</p>
-                        <a href="#" class="button">Send a Gift</a>
-                    </div>
-
-                    <div class="share__img">
-                        <img src="assets/img/shared.png" alt="">
-                    </div>
-                </div>
-            </section>
-
-            <!--========== DECORATION ==========-->
+            <br><br><br><br>
+            <!--========== BENEFITS OF OUR SERVIECE ==========-->
+            <br><BR><br>
             <section class="decoration section bd-container" id="decoration">
-                <h2 class="section-title">Give Christmas Decorations <br> For Your Home</h2>
+                
                 <div class="decoration__container bd-grid">
                     <div class="decoration__data">
                         <img src="assets/img/decoration1.png" alt="" class="decoration__img">
-                        <h3 class="decoration__title">Christmas Bells</h3>
-                        <a href="#" class="button button-link">Go Shopping</a>
+                        <h3 class="decoration__title">Save time and stress</h3>
+                        <h4> Designing a welcome book from scratch can be time-consuming and stressful, but with our service, you can have a professional-quality book ready in just 24 hours without any hassle.</h4>
                     </div>
 
                     <div class="decoration__data">
                         <img src="assets/img/decoration2.png" alt="" class="decoration__img">
-                        <h3 class="decoration__title">Christmas Candies</h3>
-                        <a href="#" class="button button-link">Go Shopping</a>
+                        <h3 class="decoration__title">Boost your bookings</h3>
+                        <h4>A well-crafted welcome book can help you attract more bookings by showcasing your property's unique features and amenities.</h4>
                     </div>
 
                     <div class="decoration__data">
                         <img src="assets/img/decoration3.png" alt="" class="decoration__img">
-                        <h3 class="decoration__title">Christmas Trees</h3>
-                        <a href="#" class="button button-link">Go Shopping</a>
+                        <h3 class="decoration__title">Personalized to your style</h3>
+                        <h4>Our service allows you to customize your welcome book to match your personal style and brand, making it a unique reflection of your property and hospitality.</h4>
                     </div>
                 </div>
             </section>
 
-            <!--========== ACCESSORIES ==========-->
+            <div style="position: relative; padding-bottom: 36.25%; padding-top: 25px; height: 0; overflow: hidden; background-color: transparent; border: none; border-top-color: red;">
+              <iframe allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"
+                      style="position: absolute; top:0; left: 0; width: 100%; height: 100%;" src="https://online.flippingbook.com/view/296894674/" frameborder="240px">
+              </iframe>
+          </div>
+          
+<!--==========our mission ==========-->
+<section class="send section">
+  <div class="send__container bd-container bd-grid">
+      <div class="send__content">
+        <br><br>
+          <h2 class="section-title-center send__title">Our Mission</h2>
+          <p class="send__description">Our mission is to help Airbnb hosts elevate their guests' experience and increase their bookings by providing them with beautifully designed, personalized welcome books. We believe that a well-designed welcome book is an essential tool for any host who wants to create a memorable stay for their guests and stand out from the competition. By combining our expertise in design with our passion for hospitality, we aim to deliver a service that not only meets but exceeds our customers' expectations. Our mission is to empower hosts to take their Airbnb to the next level 
+            with a custom welcome book that reflects their unique personality and style.</p>
+         
+      </div>
+
+      <div class="send__img">
+          <img src="assets/img/send.png" alt="">
+      </div>
+  </div>
+</section>
+</main>
+            <!--========== HOW IT WORKS ==========-->
             <section class="accessory section bd-container" id="accessory">
-                <h2 class="section-title">New Christmas <br> Accessories</h2>
+                <h1 class="section-title">How It Works!</h1>
 
                 <div class="accessory__container bd-grid">
                     <div class="accessory__content">
                         <img src="assets/img/accessory1.png" alt="" class="accessory__img">
-                        <h3 class="accessory__title">Snow Globe</h3>
-                        <span class="accessory__category">Accessory</span>
-                        <span class="accessory__preci">$9.45</span>
-                        <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a>
+                        <h1>01</h1>
+                        <span class="accessory__category"><h2>Consultation & Planning</h2></span>
+                        <span class="accessory__category">Contact us to discuss your project and share your vision for your welcome book.</span>
+                        
+                       
                     </div>
 
                     <div class="accessory__content">
                         <img src="assets/img/accessory2.png" alt="" class="accessory__img">
-                        <h3 class="accessory__title">Candy</h3>
-                        <span class="accessory__category">Accessory</span>
-                        <span class="accessory__preci">$2.52</span>
-                        <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a>
+                        <h1 >02</h1>
+                        <span class="accessory__category"><h2>Designing</h2></span>
+                        <span class="accessory__category">Our talented team will create an eye-catching design that reflects your property unique style. </span>
+                       
                     </div>
 
                     <div class="accessory__content">
                         <img src="assets/img/accessory3.png" alt="" class="accessory__img">
-                        <h3 class="accessory__title">Angel</h3>
-                        <span class="accessory__category">Accessory</span>
-                        <span class="accessory__preci">$13.15</span>
-                        <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a>
+                        <h1>03</h1>
+                        <span class="accessory__category"><h2>Review & Delivery </h2></span>
+                        <span class="accessory__category">Once you're satisfied with the design we'll prepare the final files for your welcome book. </span>
+                        
+                       
                     </div>
 
-                    <div class="accessory__content">
-                        <img src="assets/img/accessory4.png" alt="" class="accessory__img">
-                        <h3 class="accessory__title">Sphere</h3>
-                        <span class="accessory__category">Accessory</span>
-                        <span class="accessory__preci">$4.25</span>
-                        <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a>
-                    </div>
+                   
 
-                    <div class="accessory__content">
-                        <img src="assets/img/accessory5.png" alt="" class="accessory__img">
-                        <h3 class="accessory__title">Surprise gift</h3>
-                        <span class="accessory__category">Accessory</span>
-                        <span class="accessory__preci">$7.99</span>
-                        <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a>
-                    </div>
+                    
                 </div>
+                
+	</div>
             </section>
-
-            <!--========== SEND GIFT ==========-->
-            <section class="send section">
-                <div class="send__container bd-container bd-grid">
-                    <div class="send__content">
-                        <h2 class="section-title-center send__title">Send Gift Now</h2>
-                        <p class="send__description">Start giving away before the holidays are over. Write the home address of the person who will send the gift.</p>
-                        <form action="">
-                            <div class="send__direction">
-                                <input type="text" placeholder="House address" class="send__input">
-                                <a href="#" class="button">Send</a>
-                            </div>
-                        </form>
-                    </div>
-
-                    <div class="send__img">
-                        <img src="assets/img/send.png" alt="">
-                    </div>
+           
+            
+           
+                <title>Payment Options</title>
+                <style>
+                    /* Center the box */
+                    .box {
+                        margin: 0 auto;
+                        width: 50%;
+                        background-color: #f2f2f2;
+                        padding: 20px;
+                        border-radius: 5px;
+                        text-align: center;
+                        box-shadow: 0 0 10px rgba(0,0,0,0.3);
+                    }
+                    
+                    /* Style the buttons */
+                    .btn {
+                        display: inline-block;
+                        padding: 10px 20px;
+                        background-color: #4CAF50;
+                        color: white;
+                        border: none;
+                        border-radius: 5px;
+                        font-size: 16px;
+                        margin: 10px;
+                        cursor: pointer;
+                        transition: all 0.3s ease-in-out;
+                    }
+                    
+                    /* Button hover effect */
+                    .btn:hover {
+                        background-color: #3e8e41;
+                    }
+                </style>
+            
+                <div class="box">
+                    <h2>Payment Options</h2>
+                    <button class="btn" onclick="window.location.href='https://www.paypal.com'">Pay with PayPal</button>
+                    
                 </div>
-            </section>
-        </main>
+               
+                    <meta charset="UTF-8">
+                    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>Document</title>
+                    <script src="https://www.paypal.com/sdk/js?client-id=<%= paypalClientId %>"></script>
+                    <script src="/script.js" defer></script>
+                  
+                    <div id="paypal"></div>
+                  
+            
+            
 
         <!--========== FOOTER ==========-->
         <footer class="footer section">
@@ -207,5 +252,6 @@
 
         <!--========== MAIN JS ==========-->
         <script src="assets/js/main.js"></script>
+        
     </body>
 </html>
